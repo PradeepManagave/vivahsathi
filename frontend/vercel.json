@@ -1,13 +1,13 @@
 {
   "framework": "nextjs",
-  "nodeVersion": "20.x",
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "installCommand": "npm install --ignore-scripts --no-optional",
+  "installCommand": "npm install --ignore-scripts --no-optional --force",
   "devCommand": "npm run dev",
   "env": {
     "NEXT_PUBLIC_API_URL": "https://api.vivahsathi.com/api/v1",
-    "NEXT_PUBLIC_APP_URL": "https://vivahsathi.com"
+    "NEXT_PUBLIC_APP_URL": "https://vivahsathi.com",
+    "NODE_VERSION": "20.18.0"
   },
   "github": {
     "silent": false,
