@@ -1,0 +1,24 @@
+import { notFound } from 'next/navigation';
+import { languages } from '@/lib/constants/i18n';
+
+export function generateStaticParams() {
+  return languages.map((lang) => ({
+    locale: lang.code
+  }));
+}
+
+export default function LocaleLayout({
+  children,
+  params: { locale }
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
+  const isValidLocale = languages.some((lang) => lang.code === locale);
+  
+  if (!isValidLocale) {
+    notFound();
+  }
+
+  return children;
+}

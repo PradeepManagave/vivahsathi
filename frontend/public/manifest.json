@@ -1,0 +1,30 @@
+{
+  "name": "VivahSathi",
+  "short_name": "VivahSathi",
+  "description": "Find your perfect life partner on VivahSathi - India's trusted matrimonial platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#E11D48",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "48x48",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/images/logos/logo-icon.svg",
+      "sizes": "36x36",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["lifestyle", "social"],
+  "lang": "en",
+  "dir": "ltr"
+}

@@ -1,0 +1,8 @@
+# Backend .dockerignore
+node_modules/
+dist/
+logs/
+coverage/
+.git/
+.env
+*.md

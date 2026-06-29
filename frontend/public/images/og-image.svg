@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="og" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#BE123C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og)"/>
+  <text x="80" y="340" font-family="system-ui, sans-serif" font-size="72" font-weight="800" fill="white" letter-spacing="-1">VivahSathi</text>
+  <text x="80" y="400" font-family="system-ui, sans-serif" font-size="28" fill="white" opacity="0.9">Find Your Perfect Match</text>
+  <circle cx="1050" cy="315" r="150" fill="white" opacity="0.1"/>
+  <circle cx="1050" cy="315" r="80" fill="white" opacity="0.15"/>
+</svg>
