@@ -26,9 +26,6 @@
     "cap:build:vendor": "FLAVOR=vendor npx cap sync android && cd android && ./gradlew assembleDebug"
   },
   "dependencies": {
-    "@capacitor/core": "^6.1.2",
-    "@capacitor/push-notifications": "^6.0.2",
-    "@capacitor/splash-screen": "^6.0.2",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-checkbox": "^1.1.1",
@@ -71,9 +68,14 @@
     "zod": "^3.23.8",
     "zustand": "^4.5.4"
   },
-  "devDependencies": {
+  "optionalDependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/push-notifications": "^6.0.2",
+    "@capacitor/splash-screen": "^6.0.2",
     "@capacitor/android": "^6.1.2",
-    "@capacitor/cli": "^6.1.2",
+    "@capacitor/cli": "^6.1.2"
+  },
+  "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@testing-library/jest-dom": "^6.4.8",
