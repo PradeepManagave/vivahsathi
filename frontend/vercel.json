@@ -1,5 +1,6 @@
 {
   "framework": "nextjs",
+  "nodeVersion": "20.x",
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "installCommand": "npm install --ignore-scripts --no-optional",
